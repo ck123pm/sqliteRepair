@@ -1,10 +1,9 @@
 # sqliteRepair
 A tool for repairing sqlite database
 
-# Repair Tool For Sqlite3
-A tool for repairing sqlite database
 ## Environment
 Windows 7(Runtime Env)
+
 Python 3.6(Development Env)
 
 ## Step1
