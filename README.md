@@ -14,7 +14,7 @@ Python 3.6(Development Env)
 ├─RepairTool
 │      dump.sql
 │      read.sql
-│      repair.exe
+│      repairTool.exe
 │      sqlite3.exe
 ```
 
@@ -26,7 +26,7 @@ Copy the corrupt sqlite database file to this directory.
 ├─RepairTool
 │      dump.sql
 │      read.sql
-│      repair.exe
+│      repairTool.exe
 │      sqlite3.exe
 │      CorruptDB
 ```
@@ -36,7 +36,7 @@ Open the command line in the current directory or use the `cd` command to this d
 
 Then
 ```
-D:\Tools\RepairTool>repair.exe CorruptDB NewDB
+D:\Tools\RepairTool>repairTool.exe CorruptDB NewDB
 ```
 `Param1`: filename of the corrupt database file
 
@@ -59,7 +59,7 @@ Now the files should be like this:
 ├─RepairTool
 │      dump.sql
 │      read.sql
-│      repair.exe
+│      repairTool.exe
 │      sqlite3.exe
 │      CorruptDB
 |      NewDB
